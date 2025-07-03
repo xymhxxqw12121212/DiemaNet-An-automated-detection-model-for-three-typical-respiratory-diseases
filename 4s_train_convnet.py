@@ -309,10 +309,7 @@ data = {
     'Test Loss': test_loss_graph,
     'Test Accuracy': test_acc_graph
 }
-# 创建DataFrame
-df = pd.DataFrame(data)
-# 将DataFrame保存为CSV文件
-df.to_csv('train_test_acc_loss.csv', index=False)
+
 
 
 
