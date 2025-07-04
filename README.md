@@ -1,5 +1,5 @@
 # DiemaNet:An automated detection model for three typical respiratory diseases
-1. Dataset: The dataset folder contains the original dataset. (See other instructions for how to get the data.)
+1. Dataset: The dataset folder contains the original dataset. (See Additional notes for how to get the data.)
 
 2. Audio segmentation: Run splitSegment.py to segment the cough recordings in the dataset folder into shorter cough segments based on the silence threshold. The segmented data will be saved in the datasetSegment folder.
 
